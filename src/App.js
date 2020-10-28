@@ -1,10 +1,13 @@
+import Header from "./common/Header/Header";
+import Layout from "./common/Layout/Layout";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <p>Iniciando maqueta BEGO</p>
-      </header>
-    </div>
+    <>
+      <Layout>
+        <Header />
+      </Layout>
+    </>
   );
 }
 
