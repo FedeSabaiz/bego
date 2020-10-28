@@ -6,5 +6,6 @@ export const LayoutContainer = styled.div`
   height: 100vh;
   background: url(${image});
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 `;
