@@ -37,5 +37,6 @@ export const AcceptJobContainer = styled.div`
     text-align: center;
     margin-bottom: 28px;
     outline: none;
+    cursor: pointer;
   }
 `;
