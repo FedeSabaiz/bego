@@ -4,7 +4,7 @@ import {
   ImageContainer,
   StreetsContainer,
 } from "./OrderStreets.styled";
-import locationTo from "../../assets/img/location2.png";
+import locationTo from "../../assets/img/buttonLocation.png";
 import locationFrom from "../../assets/img/locationFrom2.png";
 
 const OrderStreets = () => {
