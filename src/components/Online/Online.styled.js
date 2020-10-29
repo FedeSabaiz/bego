@@ -5,11 +5,13 @@ export const OnlineContainer = styled.div`
   width: 88.96px;
   background: linear-gradient(180deg, #080f15 0%, #040b11 100%);
   box-shadow: inset -2px -2px 3px 0 #1c232a, inset 2px 2px 3px 0 #000000;
-  margin: 46px 0 0 27px;
+  margin: 0 0 0 29px;
   border-radius: 24px;
   display: flex;
   align-items: center;
   align-self: flex-start;
+  position: absolute;
+  top: 129px;
 
   & svg {
     height: 36.97px;

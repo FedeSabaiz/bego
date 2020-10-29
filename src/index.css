@@ -6,8 +6,19 @@
   font-family: "Avenir-heavy";
   src: url("./assets/fonts/AEH.ttf");
 }
+@font-face {
+  font-family: "Avenir-roman";
+  src: url("./assets/fonts/AvenirRoman.otf");
+}
 
-body {
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.eot");
+}
+
+body,
+html,
+#root {
   width: 100%;
   height: 100%;
   margin: 0;
