@@ -13,7 +13,12 @@
 
 @font-face {
   font-family: "Avenir-Medium";
-  src: url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.eot");
+  src: url("./assets/fonts/Avenir\ Medium.ttf");
+}
+
+@font-face {
+  font-family: "Open-Sans-Semibold";
+  src: url("./assets/fonts/OpenSans-SemiBold.ttf");
 }
 
 body,
