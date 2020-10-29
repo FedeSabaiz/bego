@@ -1,17 +1,37 @@
-body {
+@font-face {
+  font-family: "Avenir-book";
+  src: url("./assets/fonts/AvenirLTStd-Book.otf");
+}
+@font-face {
+  font-family: "Avenir-heavy";
+  src: url("./assets/fonts/AEH.ttf");
+}
+@font-face {
+  font-family: "Avenir-roman";
+  src: url("./assets/fonts/AvenirRoman.otf");
+}
+
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url("./assets/fonts/Avenir\ Medium.ttf");
+}
+
+@font-face {
+  font-family: "Open-Sans-Semibold";
+  src: url("./assets/fonts/OpenSans-SemiBold.ttf");
+}
+
+body,
+html,
+#root {
+  width: 100%;
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #000;
+  display: flex;
+  justify-content: center;
 }
 
 p {
   margin: 0;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
