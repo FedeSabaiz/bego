@@ -2,7 +2,6 @@ import React from "react";
 import {InfoOrderContainer, Order} from "./InfoOrder.styled";
 import Chart from "../Chart/Chart";
 import OrderData from "../OrderData/OrderData";
-import {OrderDataContainer} from "../OrderData/OrderData.styled";
 
 const InfoOrder = () => {
   return (

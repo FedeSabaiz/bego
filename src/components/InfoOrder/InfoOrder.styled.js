@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const InfoOrderContainer = styled.div`
   width: 100%;
-  height: 158px;
 `;
 
 export const Order = styled.div`
