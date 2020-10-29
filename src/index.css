@@ -6,8 +6,24 @@
   font-family: "Avenir-heavy";
   src: url("./assets/fonts/AEH.ttf");
 }
+@font-face {
+  font-family: "Avenir-roman";
+  src: url("./assets/fonts/AvenirRoman.otf");
+}
 
-body {
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url("./assets/fonts/Avenir\ Medium.ttf");
+}
+
+@font-face {
+  font-family: "Open-Sans-Semibold";
+  src: url("./assets/fonts/OpenSans-SemiBold.ttf");
+}
+
+body,
+html,
+#root {
   width: 100%;
   height: 100%;
   margin: 0;
