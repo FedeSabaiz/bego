@@ -21,12 +21,12 @@ export const ImageContainer = styled.div`
   .image-to {
     width: 20px;
     height: 20px;
-    margin: 15px 0 2.92px 0;
+    margin: 5px 0 2.92px 0;
   }
 
   .image-from {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
   }
 
   .line-dots {

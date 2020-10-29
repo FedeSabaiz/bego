@@ -27,7 +27,7 @@ export const AcceptJobContainer = styled.div`
     width: 306px;
     height: 40px;
     border-radius: 8px;
-    background: #ffbe00;
+    background: linear-gradient(180deg, #FFD200 0%, #FFBE00 100%);
     color: #06121c;
     font-family: "Open-Sans-Semibold";
     font-size: 14px;
@@ -38,5 +38,6 @@ export const AcceptJobContainer = styled.div`
     margin-bottom: 28px;
     outline: none;
     cursor: pointer;
+    border: none;
   }
 `;
